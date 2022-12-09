@@ -10,15 +10,6 @@ jobs:
         - name: Checkout
           
           uses: actions/checkout@v3
-        # - name: Checkout private tools
-        #   uses: actions/checkout@v3
-        #   with:
-        #    repository: PruthvirajSingh/Application.git
-        #    token: ${{ secrets.TOKEN }} # `GH_PAT` is a secret that contains your PAT
-        #    path: main
-        
-
-          
         - uses: actions/setup-node@v3
           with:
             node-version: 18
